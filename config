@@ -1,0 +1,16 @@
+theme = "horizon-dark"
+
+[editor]
+line-number = "relative"
+mouse = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal."space"]
+g = ":pipe-to kitty @ launch --location=hsplit --cwd=current --title=live-grep -- ~/bin/helix-live-grep"
